@@ -1,0 +1,6 @@
+MySQLDumper.php generates MySQL dumps of specified hosts, compresses the file and uploads to the specified FTP location.
+Useful for automated backups. Can be set as a cron job on the server. 
+
+BackupDelete.php deletes backups on the FTP location older than specified Month(s) and Day(s).
+
+The only drawback is, in case the data is huge, the PHP execution time limit set on shared hostings create a problem.
